@@ -1,0 +1,12 @@
+.fitness{
+        max-width: 100%;
+        margin: 0px auto;
+        padding: 0px;
+        min-height: 529px;
+        height: auto;  
+}
+@media (min-width: 1200px){
+    .fitness {
+        width: 1330px;
+        }
+} 

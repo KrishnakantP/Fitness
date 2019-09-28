@@ -1,0 +1,32 @@
+<div class="navigationlinks">
+  <div class="toggle">
+    <div class="logo">
+      <img src="../assets/Mobile.png" alt="logo" />
+    </div>
+    <div class="iconbars" (click)="toggle=!toggle">
+      <div class="icon"></div>
+      <div class="icon"></div>
+      <div class="icon"></div>
+      <div class="icon"></div>
+    </div>
+    <div class="iconbars-clear"></div>
+  </div>
+  <ul [ngClass]="{'active':toggle}">
+    <li>
+      <a href="#home">HOME</a>
+    </li>
+    <li>
+      <a href="#aboutfitness">ABOUT FITNESS</a>
+    </li>
+    <li>
+      <a href="#benifits">BENIFITS</a>
+    </li>
+    <li>
+      <a href="#gallery">GALLERY</a>
+    </li>
+    <li>
+      <a href="#contact">CONTACT</a>
+    </li>
+  </ul>
+  <div class="iconbars-clear"></div>
+</div>

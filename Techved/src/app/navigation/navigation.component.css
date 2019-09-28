@@ -1,0 +1,98 @@
+
+.navigationlinks{
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+}
+
+ul{
+    list-style: none;
+    float: right;
+}
+
+ul li{
+    padding: 20px;
+    display: inline-block;
+}
+
+ul li a{
+    color: gray;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color:#1db7e6;
+}
+
+.toggle{
+    max-width: 100%;
+    text-align: right;
+    background: white;
+    padding: 8px 8px;
+    color: black;
+    overflow:auto;
+    float: left;
+    margin-left: 20px;
+}
+
+.toggle >.iconbars{
+    float: right;
+    direction: rtl;
+    display: none;
+}
+
+.toggle >.logo{
+    float: left;
+    margin-left: 15px;
+}
+
+img{
+    max-width: 100%;
+    height: 35px;
+}
+
+.toggle >.iconbars> div.icon{
+    width: 29px;
+    min-height: 2px;
+    background: #807f84;
+    margin: 6px;
+}
+
+.toggle >.iconbars> div.icon:nth-child(even) {
+    width: 22px;
+}
+
+.toggle >.iconbars-clear{
+    clear: both;
+}
+.iconbars-clear{
+    clear: both;
+}
+
+@media screen and (max-width: 768px) {
+    ul{
+     width: 100%;
+     display: none;
+     float: none;
+
+    }
+    ul li:hover{
+        background-color: red;
+    }
+    ul li{
+        display: block;
+        text-align: center;
+    }
+    .toggle{
+        display: block;
+        width:100%;
+        margin-left: 0px;
+        float: none;
+    }
+    .toggle >.iconbars{
+        display: block;
+    }
+    .active{
+        display:block;
+    }
+} 
