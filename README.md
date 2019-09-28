@@ -3,7 +3,7 @@ Fitness
 
 Steps to run the app
 
-1. Download or clone the code.
+1. Download or clone the code using git on your local machine.
 
 2. Download and install Nodejs.
    https://nodejs.org/en/
