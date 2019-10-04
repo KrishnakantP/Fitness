@@ -12,4 +12,5 @@ Steps to run the app
    npm install -g @angular/cli
    
 4. Run the code using below command and hit localhost:4200 in web browser after the code has been compiled.
-    ng serve 
+
+5. ng serve
